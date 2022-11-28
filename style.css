@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
 html {
     width: 100%;
     
@@ -483,12 +488,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    
 }
 
 .alert-secondary {
     color: #383d41;
     background-color: #e2e3e5;
     border-color: #d6d8db;
+   
 }
 .alert {
     position: relative;
@@ -496,6 +503,7 @@ nav {
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+
 }
 .social-media-4 {
     width: 32px;
